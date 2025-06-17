@@ -1,0 +1,71 @@
+// Variables de colores
+$color-primary: #4a6fa5;
+$color-secondary: #47b475;
+$color-accent: #ff6b6b;
+$color-dark: #333333;
+$color-light: #f5f5f5;
+$color-gray: #888888;
+$color-gray-light: #cccccc;
+$color-danger: #e74c3c;
+$color-warning: #f39c12;
+$color-success: #2ecc71;
+$color-text-light: #666666;
+$color-border: #dddddd;
+$color-error: #e74c3c;
+
+// Variables para efectos Liquid Glass
+$glass-opacity: 0.5;
+$glass-blur: 20px;
+$glass-border-radius: 16px;
+$glass-border-width: 1px;
+$glass-border-opacity: 0.08;
+$glass-shadow-opacity: 0.12;
+$glass-highlight-opacity: 0.15;
+$glass-reflection-opacity: 0.04;
+$glass-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+// Variables de tipografía
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$font-size-base: 16px;
+$font-size-sm: 0.875rem;
+$font-size-xs: 0.75rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$line-height-base: 1.5;
+
+// Variables de espaciado
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-xxl: 3rem;
+
+// Variables de bordes
+$border-radius: 8px;
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 24px;
+$border-radius-pill: 999px;
+
+// Variables de sombras
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$box-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+$box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+// Variables de transición
+$transition-fast: 0.15s ease;
+$transition-normal: 0.25s ease;
+$transition-slow: 0.4s ease;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px; 
