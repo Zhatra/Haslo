@@ -164,18 +164,22 @@ export default {
     };
     
     // Observar cambios en la tarea seleccionada
-    watch(() => props.task, (newTask) => {
-      // Si cambia la tarea, reiniciar el temporizador
-      if (newTask.id !== props.task.id) {
-        resetTimer();
-        
-        // Actualizar la duración según la nueva tarea
-        if (newTask.duration) {
-          currentDuration.value = newTask.duration;
-          timeRemaining.value = newTask.duration;
+    watch(
+      () => props.task,
+      (newTask, oldTask) => {
+        // Si la referencia o el id de la tarea cambia, reiniciar el temporizador
+        if (!oldTask || newTask.id !== oldTask.id) {
+          resetTimer();
+
+          // Actualizar la duración según la nueva tarea
+          if (newTask.duration) {
+            currentDuration.value = newTask.duration;
+            timeRemaining.value = newTask.duration;
+          }
         }
-      }
-    }, { deep: true });
+      },
+      { deep: true }
+    );
     
     // Inicializar el temporizador con el valor correcto al montar el componente
     onMounted(() => {
