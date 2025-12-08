@@ -16,7 +16,7 @@ Haslo es una aplicación web para gestionar tareas con temporizador de enfoque, 
 - NPM o Yarn
 - Cuenta de Firebase
 
-## Configuración
+## Configuraciónfff
 
 ### 1. Clonar el repositorio
 
